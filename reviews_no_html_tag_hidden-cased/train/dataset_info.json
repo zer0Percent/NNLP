@@ -1,0 +1,87 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 13360054,
+  "description": "",
+  "download_checksums": {
+    "/Users/alvaro/Documents/Github/NNLP/./experiments/data/train_no_html_tags.csv": {
+      "num_bytes": 8469655,
+      "checksum": null
+    },
+    "/Users/alvaro/Documents/Github/NNLP/./experiments/data/validation_no_html_tags.csv": {
+      "num_bytes": 2184476,
+      "checksum": null
+    },
+    "/Users/alvaro/Documents/Github/NNLP/./experiments/data/test_no_html_tags.csv": {
+      "num_bytes": 2666955,
+      "checksum": null
+    }
+  },
+  "download_size": 13321086,
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "review": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sentiment": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "hidden_state": {
+      "feature": {
+        "dtype": "float32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 26681140,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 8494853,
+      "num_examples": 6400,
+      "dataset_name": "csv"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 2190648,
+      "num_examples": 1600,
+      "dataset_name": "csv"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 2674553,
+      "num_examples": 2000,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
